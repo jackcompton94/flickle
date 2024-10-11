@@ -1,0 +1,70 @@
+/* App.css */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.movie-container {
+  background-color: #1a1a1a;
+  min-width: 500px;
+  border-radius: 8px; 
+  padding: 2rem; 
+  margin: 2rem 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  color: rgb(0, 0, 0);
+  background-color: #787878;
+  border-radius: 8px; 
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.match-green {
+  background-color: #22d128; 
+}
+
+.match-yellow {
+  background-color: #eddb34; 
+}
+
+.search-input {
+  display: flex; 
+  align-items: center;
+}
+
+input[type="text"] {
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000; /* Ensure it is on top of other content */
+}
+
+.modal-content {
+  background: #1a1a1a; /* Match your container background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  text-align: center; /* Center align text */
+}
